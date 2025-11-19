@@ -1,0 +1,5 @@
+# requirements.txt
+kafka-python-ng
+psycopg2-binary==2.9.9
+faker==19.13.0
+python-dotenv==1.0.1
