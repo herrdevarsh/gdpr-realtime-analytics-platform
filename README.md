@@ -33,7 +33,11 @@ This project is meant to show how I think and work as a **Data Engineer**:
 
 **Scenario:** EU e-commerce / SaaS product tracking user events.
 
-**Main pieces:**
+### 2.1 Architecture diagram
+
+![Architecture Diagram](archdiagram.PNG)
+
+### 2.2 Main pieces
 
 1. **Event generator (Python)**  
    `data_generators/generate_events.py`  
@@ -164,7 +168,6 @@ docker compose up -d
 # docker-compose up -d
 
 docker ps  # check kafka, zookeeper, postgres are running
-
 5.2 Virtualenv & dependencies
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -269,4 +272,8 @@ Run tests:
 pytest
 
 
-Example: tests/test_gdpr.py inserts a fake user and privacy request, runs the GDPR processor, and asserts that PII fields in users_pii are NULL
+Example: tests/test_gdpr.py inserts a fake user and privacy request, runs the GDPR processor, and asserts that PII fields in users_pii are NULL.
+
+
+This version drops straight in as your new `README.md` and uses your `archdiagram.PNG` image for the architecture section. :contentReference[oaicite:0]{index=0}
+::contentReference[oaicite:1]{index=1}
