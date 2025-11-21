@@ -35,7 +35,7 @@ This project is meant to show how I think and work as a **Data Engineer**:
 
 ### 2.1 Architecture diagram
 
-![Architecture Diagram](archdiagram.PNG)
+![Architecture Diagram](archdiagram.png)
 
 ### 2.2 Main pieces
 
